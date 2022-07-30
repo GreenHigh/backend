@@ -13,10 +13,10 @@ import javax.persistence.Persistence;
 
 @Component
 @Slf4j
-public class InsertTestRepository implements InsertTestPort {
+public class InsertTestPersistenceAdapter implements InsertTestPort {
 
     @Autowired
-    public InsertTestRepository() {
+    public InsertTestPersistenceAdapter() {
     }
 
     public String insertTest() {
